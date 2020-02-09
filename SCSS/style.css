@@ -1,0 +1,300 @@
+@media only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	body{
+      width: 600px;
+    }
+}
+nav ul{
+	margin-left: 250px;
+}
+nav ul li a{
+	color: #34495e;
+	font: 30px 'Ubuntu', sans-serif;
+	font-weight: bold;
+    padding: 20px;
+}
+nav #alaye a p{
+    margin-top: -180px;
+    margin-left: 330px;
+    padding-bottom: 100px;
+    color: #34495e;
+    font: 15px 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+nav img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 150px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	nav{
+      padding: 50px;
+    }
+    
+}
+@media only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	header nav{
+      margin-left: -250px;
+    }
+}
+header {
+    text-align: center;
+}
+header h1 {
+    margin: 80px 0 25px;
+    color: #34495e;
+    font: 300 80px 'Ubuntu', sans-serif;
+    margin-top: -60px;
+}
+header h1 span {
+    font-weight: bold;
+}
+header h3{
+    color: #34495e;
+	font: 30px 'Ubuntu', sans-serif;
+	font-weight: bold;
+    padding: 12px;
+}
+header p a{
+	font: 'Ubuntu', sans-serif;
+	font-weight: bold;
+    padding: 20px;
+    color: #34495e;
+    font-size: 25px;
+    margin-top: -20px;
+    margin-left: 150px;
+}
+header img{
+    width: 100px;
+    height: 90px;
+    box-shadow: 1px 0px 5px 0px #34495e;
+    margin-top: -10px;
+}
+.form {
+    width: 800px;
+    margin: 50px auto 20px;
+}
+
+header .form a{
+    color: #34495e;
+    border-bottom: 2px solid #34495e;
+    font: 300 20px 'Ubuntu', sans-serif;
+    transition: all .8s ease-out;
+}
+header .form a:hover{
+    transform: scale(1.3);
+}
+
+footer{
+    background: url('/img/portfolio-1.jpg');    
+}
+#showcase{
+    background: url('/img/portfolio-1.jpg');
+    height: auto;
+}
+.dark-overlay{
+    background: #000;
+    opacity: .9;
+    padding: 50px;
+    min-height: 700px;
+}
+.overlay{
+    background: #000;
+    opacity: .9;
+    padding: 50px;
+    min-height: auto;
+}
+footer img{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    border: 5px solid #34495e;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	footer img{
+      margin-left: 150px;
+    }
+    footer h1{
+        margin-left: 40px;
+    }
+}
+footer h1{
+    font: 50px 'Ubuntu', sans-serif;
+    padding: 20px;
+    color: #fff;
+    margin-top: -20px;
+    font-weight: bold;
+}
+footer h3{
+font: 300 28px 'Ubuntu', sans-serif;
+padding: 20px;
+color: #fff;
+margin-top: -20px;
+font-weight: bold;
+}
+footer h3 span{
+    font-weight: bold;
+} 
+footer p{
+    font: 28px 'Ubuntu', sans-serif;
+    color: #34495e;
+    margin-left: px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	footer p{
+      margin-left: -15px;
+    }
+}
+#footer-bottom p{
+    font: 300 15px 'Ubuntu', sans-serif;
+    text-align: center;
+    color: #34495e;
+}
+#footer-bottom img{
+    width: 200px;
+    height: 30px;
+}
+#newd h1{
+    border-bottom: 1px solid #34495e;
+    font: 300 28px 'Ubuntu', sans-serif;
+    padding: 20px;
+    color: #34495e;
+    font-weight: bold;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	#newd header{
+      width: ;
+    }
+}
+#newd h3{
+    font: 300 28px 'Ubuntu', sans-serif;
+    padding: 20px;
+    color: #34495e;
+    font-size: 60px;
+}
+#newd h3 span{
+    font-weight: bold;
+}
+#newd p{
+    font: 300 28px 'Ubuntu', sans-serif;
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: -150px;
+}
+#showcase table{
+border-collapse: collapse;
+text-align: center;
+padding: 50px;
+width: 97%;
+border-left: 1px solid #34495e;
+border-right: 1px solid #34495e;
+border-bottom: 1px solid #34495e;
+color: #fff;
+}
+#pagination ul li a{
+	color: black;
+}
+#pagination a.active{
+	background: #007bff;
+	color: #fff;
+} 
+@media only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	#pagination button{
+      margin-top: 30px;
+    }
+    #pagination {
+        width: ;
+    }
+}
+#showcase #resultdiv span{
+    font-weight: bold;
+}
+#result1 #result{
+    font-weight: bold;
+    font: 300 30px 'Ubuntu', sans-serif;
+    color: rgb(37, 129, 216);
+    background: #fff;
+    padding: 20px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgb(37, 129, 216);
+    border: 1px solid rgb(37, 129, 216);
+}
+#result1 #grade {
+    font-weight: bold;
+    font: 300 30px 'Ubuntu', sans-serif;
+    color: rgb(37, 129, 216);
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgb(37, 129, 216);
+    border: 1px solid rgb(37, 129, 216);
+    margin-left: 20px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+    #result1 #grade{
+        width: 490px;
+        margin-top: 20px;
+        margin-left: -3px;
+      }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	#result1 #result {
+      margin-top: 20px;
+      width: 490px;
+      margin-left: 13px;
+    }
+    #result1 button {
+        width: 490px;
+      }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+	#one button, #two button, #three button, #four button, #five button, #six button, #seven button, #eight button, #nine button, #ten button, #eleven button{
+      width: 100px;
+      height: 40px;
+    }
+    
+    #zero button {
+        width: 100px;
+        height: 40px;   
+    }
+}
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #ten, #eleven {
+    display: none;
+}
+
+.showName{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgb(37, 129, 216);
+    border: 1px solid rgb(37, 129, 216);
+    padding: 20px;
+    width: 1100px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px),
+(max-width: 576px) {
+    .showName {
+        width: 480px;
+    }
+}
+.showName h3{
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
