@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="SCSS/style.css"/>  
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+        <title>Document</title>
+</head>
+<body>
+        <div id="newd" class="container">
+                <header class="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-6 col-xs-3 text-center py-4">
+                                <h3> <a href="index.html"><img src="img/IMG-20200124-WA0032.jpg" alt="" class="img-fluid rounded-circle"> </a> Calculate <span> New G.P </span>  </h3>
+                                <p class="lead"> <a href="index.html">Change <span>Scale</span></a> </p>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+        </div>
+            
+        <section id="showcase" class="">
+            <div class="dark-overlay">
+                <div id="pagination" class="mr-4 mt-2 mb-5">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-md-8 col-sm-12">
+                                                <input type="text" id="naming" class="form-control" placeholder="Enter Name">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <button id="name-click" class="btn btn-block btn-outline-secondary">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+                <div class="showName">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <h3 id="showNameSpace"></h3>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                        
+            
+                <div class="row">
+                    <div id="zero" class="col">
+                            <table id="" class="table table-striped mt-5">
+                                <thead class="thead-dark">
+                                    <tr>
+                                     <th>#</th>
+                                     <th>Unit</th>
+                                     <th>Score</th>
+                                     <th>Add Course</th>
+                                     <th>Remove Course    </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td> <input type="text" id="test23a" placeholder="input course unit" name="course" class="form-control"> </td>
+                                        <td> <input type="text" id="test24a" placeholder="input course score" name="unit" class="form-control"> </td>
+                                        <td><button id="movea" class="btn btn-outline-success btn-block"> <span style="font-weight: bold">+</span> Course</button></td>
+                                        <td><button id="hollasa" class="btn btn-outline-danger btn-block"> <span style="font-weight: bold">-</span> Course</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div id="onea">
+                                <table class="table table-stiped mt-2">
+                                            <tr>
+                                                    <td>2</td>
+                                                    <td> <input type="text" id="test1a" placeholder="input course unit" name="course" class="form-control"> </td>
+                                                    <td> <input type="text" id="test2a" placeholder="input course score" name="unit" class="form-control"> </td>
+                                                    <td> <button id="aa" class="btn btn-outline-success btn-block"> <span style="font-weight: bold">+</span> Course</button></td>
+                                                    <td> <button id="ba" class="btn btn-outline-danger btn-block"> <span style="font-weight: bold">-</span> Course</button></td>
+                                            </tr>
+                                            
+                                </table>
+                            </div>
+                            <div id="twoa">
+                                    <table class="table table-stiped mt-2">
+                                                <tr>
+                                                        <td>3</td>
+                                                        <td> <input type="text" id="test3a" placeholder="input course unit" name="course" class="form-control"> </td>
+                                                        <td> <input type="text" id="test4a" placeholder="input course score" name="unit" class="form-control"> </td>
+                                                                                    <td><button id="ca" class="btn btn-outline-success btn-block"> <span style="font-weight: bold">+</span> Course</button></td>
+                                        <td><button id="da" class="btn btn-outline-danger btn-block"> <span style="font-weight: bold">-</span> Course</button></td>
+                                                </tr>
+                                    </table>
+                            </div>
+                            <div id="threea">
+                                    <table class="table table-stiped mt-2">
+                                                <tr>
+                                                        <td>4</td>
+                                                        <td> <input type="text" id="test5a" placeholder="input course unit" name="course" class="form-control"> </td>
+                                                        <td> <input type="text" id="test6a" placeholder="input course score" name="unit" class="form-control"> </td>
+                                                                                    <td><button id="ea" class="btn btn-outline-success btn-block"> <span style="font-weight: bold">+</span> Course</button></td>
+                                        <td><button id="fa" class="btn btn-outline-danger btn-block"> <span style="font-weight: bold">-</span> Course</button></td>
+                                                </tr>
+                                    </table>
+                            </div>
+                            <div id="foura">
+                                    <table class="table table-stiped mt-2">
+                                                <tr>
+                                                        <td>5</td>
+                                                        <td> <input type="text" id="test7a" placeholder="input course unit" name="course" class="form-control"> </td>
+                                                        <td> <input type="text" id="test8a" placeholder="input course score" name="unit" class="form-control"> </td>
+                                                                                    <td><button id="ga" class="btn btn-outline-success btn-block"> <span style="font-weight: bold">+</span> Course</button></td>
+                                        <td><button id="ha" class="btn btn-outline-danger btn-block"> <span style="font-weight: bold">-</span> Course</button></td>
+                                                </tr>
+                                    </table>
+                            </div>
+                            <div id="fivea">
+                                    <table class="table table-stiped mt-2">
+                                                <tr>
+                                                        <td>6</td>
+                                                        <td> <input type="text" id="test9a" placeholder="input course unit" name="course" class="form-control"> </td>
+                                                        <td> <input type="text" id="test10a" placeholder="input course score" name="unit" class="form-control"> </td>
+                                                                                    <td><button id="ia" class="btn btn-outline-success btn-block"> <span style="font-weight: bold">+</span> Course</button></td>
+                                        <td><button id="ja" class="btn btn-outline-danger btn-block"> <span style="font-weight: bold">-</span> Course</button></td>
+                                                </tr>
+                                    </table>
+                            </div>
+                            <div id="sixa">
+                                    <table class="table table-stiped mt-2">
+                                                <tr>
+                                                        <td>7</td>
+                                                        <td> <input type="text" id="test11a" placeholder="input course unit" name="course" class="form-control"> </td>
+                                                        <td> <input type="text" id="test12a" placeholder="input course score" name="unit" class="form-control"> </td>
+                                                                                    <td><button id="ka" class="btn btn-outline-success btn-block"> <span style="font-weight: bold">+</span> Course</button></td>
+                                        <td><button id="la" class="btn btn-outline-danger btn-block"> <span style="font-weight: bold">-</span> Course</button></td>
+                                                </tr>
+                                    </table>
+                            </div>
+                            <div id="sevena">
+                                    <table class="table table-stiped mt-2">
+                                                <tr>
+                                                        <td>8</td>
+                                                        <td> <input type="text" id="test13a" placeholder="input course unit" name="course" class="form-control"> </td>
+                                                        <td> <input type="text" id="test14a" placeholder="input course score" name="unit" class="form-control"> </td>
+                                                                                    <td><button id="ma" class="btn btn-outline-success btn-block"> <span style="font-weight: bold">+</span> Course</button></td>
+                                        <td><button id="na" class="btn btn-outline-danger btn-block"> <span style="font-weight: bold">-</span> Course</button></td>
+                                                </tr>
+                                    </table>
+                            </div>
+                            <div id="eighta">
+                                    <table class="table table-stiped mt-2">
+                                                <tr>
+                                                        <td>9</td>
+                                                        <td> <input type="text" id="test15a" placeholder="input course unit" name="course" class="form-control"> </td>
+                                                        <td> <input type="text" id="test16a" placeholder="input course score" name="unit" class="form-control"> </td>
+                                                                                    <td><button id="oa" class="btn btn-outline-success btn-block"> <span style="font-weight: bold">+</span> Course</button></td>
+                                        <td><button id="pa" class="btn btn-outline-danger btn-block"> <span style="font-weight: bold">-</span> Course</button></td>
+                                                </tr>
+                                    </table>
+                            </div>
+                            <div id="ninea">
+                                    <table class="table table-stiped mt-2">
+                                                <tr>
+                                                        <td>10</td>
+                                                        <td> <input type="text" id="test17a" placeholder="input course unit" name="course" class="form-control"> </td>
+                                                        <td> <input type="text" id="test18a" placeholder="input course score" name="unit" class="form-control"> </td>
+                                                                                    <td><button id="qa" class="btn btn-outline-success btn-block"> <span style="font-weight: bold">+</span> Course</button></td>
+                                        <td><button id="ra" class="btn btn-outline-danger btn-block"> <span style="font-weight: bold">-</span> Course</button></td>
+                                                </tr>
+                                    </table>
+                            </div>
+                            <div id="tena">
+                                    <table class="table table-stiped mt-2">
+                                                <tr>
+                                                        <td>11</td>
+                                                        <td> <input type="text" id="test19a" placeholder="input course unit" name="course" class="form-control"> </td>
+                                                        <td> <input type="text" id="test20a" placeholder="input course score" name="unit" class="form-control"> </td>
+                                                                                    <td><button id="sa" class="btn btn-outline-success btn-block"> <span style="font-weight: bold">+</span> Course</button></td>
+                                        <td><button id="ta" class="btn btn-outline-danger btn-block"> <span style="font-weight: bold">-</span> Course</button></td>
+                                                </tr>
+                                    </table>
+                            </div>
+                            <div id="elevena">
+                                    <table class="table table-stiped mt-2">
+                                                <tr>
+                                                        <td>12</td>
+                                                        <td> <input type="text" id="test21a" placeholder="input course unit" name="course" class="form-control"> </td>
+                                                        <td> <input type="text" id="test22a" placeholder="input course score" name="unit" class="form-control"> </td>
+                                                                                    <td><button id="ua" class="btn btn-outline-success btn-block"> <span style="font-weight: bold">+</span> Course</button></td>
+                                        <td><button id="va" class="btn btn-outline-danger btn-block"> <span style="font-weight: bold">-</span> Course</button></td>
+                                                </tr>
+                                    </table>
+                            </div>
+                    </div>
+                </div>
+                <div id="result1a" class="mt-5">
+                        <div class="row">
+                                
+                                <div class="col-md-5 col-sm-6">
+                                    <button id="button" class="btn btn-outline-primary btn-block">Calculate</button>
+                                </div> 
+                                <div id="resulta" class="col-md-4 col-sm-6 text-center">
+                                        <div>
+                                              <h3 class="text-center"></h3>
+                                        </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                        <div>
+                                              <h3 id="gradea" class="text-center"></h3>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+            </div>
+            </section>
+            
+            
+            
+            
+            <div id="footer-bottom" class="mt-5">
+            <div class="container">
+                    <p class="lead">made   by <img src="img/A1 web.png" alt="">    <br/><br/><b>&copy;2019.</b>     All Rights Reserved
+                    </p>
+            </div>
+            </div>
+    <script src="versity-control.js"></script>
+    <script src="versity-script-query.js"></script>
+</body>
+</html>
