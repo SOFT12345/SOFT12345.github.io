@@ -108,6 +108,15 @@ footer{
     padding: 50px;
     min-height: auto;
 }
+footer *{
+    transition: 2s ease-in-out;
+}
+footer .col-md-3:hover p{
+    transform: scale(1);
+}
+footer .col-md-3:hover h3{
+    transform: scale(1);
+}
 footer img{
     width: 150px;
     height: 150px;
